@@ -10,6 +10,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { GaleriaComponent } from './pages/galeria/galeria.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { ItemComponent } from './pages/item/item.component';
     FooterComponent,
     GaleriaComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
