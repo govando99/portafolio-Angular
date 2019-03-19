@@ -4,6 +4,7 @@ import { GaleriaComponent } from './pages/galeria/galeria.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { About1Component } from './pages/about1/about1.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent },
   {path: 'item', component: ItemComponent },
   {path: 'contact', component: ContactoComponent },
+  {path: 'about1', component: About1Component},
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
 
 ];
