@@ -14,6 +14,7 @@ import { ItemComponent } from './pages/item/item.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { About1Component } from './pages/about1/about1.component';
+import { SearchComponent } from './pages/search/search.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { About1Component } from './pages/about1/about1.component';
     AboutComponent,
     ItemComponent,
     ContactoComponent,
-    About1Component
+    About1Component,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
